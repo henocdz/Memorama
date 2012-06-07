@@ -1,0 +1,65 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+html,body
+{
+	background: #C0C0C0;
+}
+
+
+/*GAME*/
+
+#mainStage
+{
+	display:block;
+	margin: 0 auto;
+	width:600px;
+}
+#gameStage 
+{
+	display:none;
+	margin:0 auto;
+	width:524px;
+	position: relative;
+}
+
+#gameTimers
+{
+	display: block;
+	margin-bottom:5px;
+	width:100%;
+}
+
+#malert
+{
+	background: #C0C0C0 url(../img/screen.jpg) no-repeat 50% 10%;
+	display: none;
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	height:100%;
+}
+
+#bgWhite
+{
+	background: #FFF url();
+}
+
+.mitem
+{
+	background:#FFF;
+	margin:3px;
+	float:left;
+	overflow: hidden;
+	width:125px;
+	height:125px;
+}
+
+.mitem img
+{
+	max-width:100%;
+}
